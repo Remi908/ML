@@ -1,16 +1,4 @@
 
 ## Description:
 
-1. Template for the Perception, Robotics and Intelligent Machines (PRIME) research group, Université de Moncton, Canada (templatePRIME.tex)
-https://primeai.ca/
-
-2. Can be used as Arxiv Template (see templateArxiv.tex).
-
-Adapted by Moulay Akhloufi using the Arxiv style of George Kour available at https://github.com/kourgeorge/arxiv-style (last accessed: April 2021)
-
-George Kour Arxiv style is provided under a MIT License (Copyright (c) 2020 George Kour; Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions)
-
-## Instructions
-1. For PRIME AI paper, use templatePRIME.tex with PRIMEarxiv.sty
-2. For Arxiv paper, use templateArxiv.tex with PRIMEarxiv.sty
-3. Remove the other template if not needed
+The report below elaborates on the approach and findings of the time-series forecasting project using an MLP model. The objective of the project was to forecast future values based on historical data. Much emphasis was placed on the performance optimization of the model by use of manual tuning of hyperparameters. The trajectories in the dataset were divided into training, validation, and test sets to learn the patterns from the model effectively. It was mainly aimed at the selection of the best hyperparameters, training the model on them, and testing its performance on unseen data.
